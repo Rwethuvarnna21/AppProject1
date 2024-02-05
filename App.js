@@ -7,12 +7,14 @@
 
 // import VideoPlayer from './src/screens/VideoPlayer'
 // import Nav from './src/Navigation/Nav'
+// import Device from './src/screens/Device'
 
 
 // const App = () => {
 //   return (
 //     // <Productapi/>
-//     <Nav/>
+//     // <Nav/>
+//     <Device/>
 //     // <CarouselApi/>
 //     // <VideoPlayer/>
 //   )
@@ -92,3 +94,26 @@
 //     </ProductProvider>
 //   );
 // }
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import PayLogin from './src/SRC/Screen/PayLogin'
+import { Navi } from './src/SRC/Navigation/Navi'
+import Otp from './src/SRC/Screen/Otp'
+import Main from './src/SRC/Screen/Main'
+import BottomNav from './src/SRC/Navigation/BottomNav'
+const App = () => {
+  return (
+    
+      // <PayLogin/>
+       <Navi/> 
+      // <Otp/>
+      // <Main/>
+      // <BottomNav/>
+
+  
+  )
+}
+
+export default App
+
+const styles = StyleSheet.create({})
