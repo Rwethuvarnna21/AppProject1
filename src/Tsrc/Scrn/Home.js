@@ -35,7 +35,7 @@ const Home = () => {
   };
 
   return (
-    <QueryClientProvider client={queryClient}>
+   
       <FlatList
         data={tasks}
         renderItem={renderItem}
@@ -43,7 +43,7 @@ const Home = () => {
       />
       <Button title="Add Task" onPress={navigateToAddTask} />
      
-     </QueryClientProvider>
+   
   );
 };
 
