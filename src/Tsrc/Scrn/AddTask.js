@@ -13,7 +13,7 @@ const AddTask = () => {
    
     navigation.goBack();
   });
-
+const taskTypes = ['Type 1', 'Type 2', 'Type 3']
   const onSubmit = (data) => {
     mutation.mutate(data);
   };
