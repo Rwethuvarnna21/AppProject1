@@ -98,14 +98,18 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import PayLogin from './src/SRC/Screen/PayLogin'
 import { Navi } from './src/SRC/Navigation/Navi'
+import {Navg} from './src/Tsrc/Navigation/Navg'
 import Otp from './src/SRC/Screen/Otp'
 import Main from './src/SRC/Screen/Main'
 import BottomNav from './src/SRC/Navigation/BottomNav'
+import Home from './src/Tsrc/Scrn/Home'
 const App = () => {
   return (
     
       // <PayLogin/>
-       <Navi/> 
+      //  <Navi/> 
+      <Navg/>
+      // <Home/>
       // <Otp/>
       // <Main/>
       // <BottomNav/>
